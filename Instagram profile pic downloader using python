@@ -1,0 +1,15 @@
+#install the required modules using the PIP
+
+#enter the required username in the given username area
+
+
+
+
+
+
+import instaloader
+
+bot = instaloader.Instaloader()
+user = input("Enter instagram username: ")
+print(bot.download_profile(user,profile_pic_only=True))
+
